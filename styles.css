@@ -1,0 +1,109 @@
+:root {
+  --grad: linear-gradient(60deg, #ff5555, #982424)
+}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  text-align:center;
+  text-underline-offset:2px;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  background-color: #555;
+}
+
+hr {
+  border:1px solid white;
+}
+
+header {
+  background-image: var(--grad);
+  padding: 5vh 5vw;
+}
+
+header hr {
+  width:40vw;
+  margin:2.5vh 25vw;
+}
+
+main {
+  width:60vw;
+  margin:auto;
+  margin-top:5vh;
+  border-left:1px solid white;
+  border-right:1px solid white;
+  padding:10px;
+}
+
+.h3box {
+  padding:2px;
+  display:inline-block;
+  margin:5px;
+}
+
+.h3box hr {
+  margin:5px 0;
+}
+
+.h3cont {
+  display:inline-block;
+  background-image: var(--grad);
+  padding:10px;
+  border-radius:10px;
+}
+
+.h3cont h3 {
+  background-color:#555;
+  border-radius:10px;
+  padding:8px;
+}
+
+img {
+  width:40vw;
+  margin:auto;
+  border-radius:10px;
+}
+
+a, .word {
+  text-decoration:2px dotted white underline;
+  color:white;
+  cursor:pointer;
+}
+
+#def {
+    width:40vw;
+    height:60vh;
+    position:fixed;
+    left:30vw;
+    top:20vh;
+    background-color:#555;
+    border:1px solid white;
+    border-radius:10px;
+}
+
+#def h2 {
+    height:10vh;
+    font-size:4vh;
+    background-image: var(--grad);
+    border-radius:10px;
+    word-wrap:break-word;
+}
+
+#def p {
+    padding:5px;
+}
+
+#def button {
+    background-image: var(--grad);
+    border-radius:10px;
+    padding:5px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    color:white;
+    text-decoration:2px dotted white underline;
+}
